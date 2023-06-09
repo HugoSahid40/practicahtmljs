@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practicahugo</title>
+    <link rel="stylesheet" href="./css/triangulo.css">
+    <script src="./js/triangulos.js"></script>
+</head>
+<body>
+    
+        <div>
+            <h1>Tipos de triangulos</h1>
+            <input type="number" placeholder="Insertar lado" required name="v1" id="valor1" onblur="valor1()" value="0">
+            <br><br><br>
+        <input type="number" placeholder="Insertar lado" required name="v2" id="valor2" onblur="valor2()" value="0">
+        <br><br><br>
+        <input type="number" placeholder="Insertar lado" required name="v3" id="valor3" value="0" onblur="valor3()">    
+        </div>
+    <div>
+        <br><br><br><br>
+        <button id="perimetro" name="peri" onclick="calcularPerimetro()">Calcular Perimetro</button>
+        <button id="area" onclick="calcularArea()">Calcular Area</button>
+        <button id="figura" onclick="tipoFigura()">¿Tipo de triangulo?</button>
+        <button id="elim" onclick="eliminar()">Limpiar</button>
+    </div>
+    <h4 id="mostrar"></h4>
+    
+</body>
+</html>

@@ -1,0 +1,46 @@
+
+body{
+background-color: skyblue;
+text-align: center;
+flex-direction: column-reverse;
+}
+
+#perimetro{
+    background-color: red;
+    color: aliceblue;
+    width: 12%;
+    margin: 0 auto;
+    display: inline block;
+}
+#area{
+    background-color: red;
+    color: aliceblue;
+    width: 12%;
+    margin: 0 auto;
+    display: inline block;
+}
+
+#figura{
+    background-color: red;
+    color: aliceblue;
+    width: 12%;
+    margin: 0 auto;
+    display: inline block;
+}
+#elim{
+    background-color: red;
+    color: aliceblue;
+    width: 12%;
+    margin: 0 auto;
+    display: inline block;
+}
+
+#valor1{
+    height: 30px;
+}
+#valor2{
+    height: 30px;
+}
+#valor3{
+    height: 30px;
+}
